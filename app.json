@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/webview/webview",
+    "pages/pay/pay",
+    "pages/phone/phone",
+    "pages/position/position"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "西安美食推荐",
+    "navigationBarTextStyle":"black"
+  }
+}

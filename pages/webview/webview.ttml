@@ -1,0 +1,2 @@
+<!-- pages/webview/webview.ttml -->
+<web-view src="{{path}}"></web-view>
