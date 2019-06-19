@@ -1,4 +1,5 @@
 {
+  "navigationBarTitleText": "订单支付信息详情",
   "component": true,
   "usingComponents": {}
 }

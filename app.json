@@ -4,12 +4,14 @@
     "pages/webview/webview",
     "pages/pay/pay",
     "pages/phone/phone",
-    "pages/position/position"
+    "pages/position/position",
+    "pages/scan/scan",
+    "pages/share/share"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "backgroundTextStyle":"black",
+    "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "西安美食推荐",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"light"
   }
 }

@@ -14,7 +14,7 @@ App({
           });
           var d = that.globalData;//这里存储了appid、secret、token串  
           tt.request({
-            url: 'https://fanfan.skyable.cn/appdy/toutiao/user?CODE='+res.code,
+            url: 'https://fanfan.skyable.cn/appdy/toutiao/user?CODE='+res.code+ '&MARKET_ID=' + that.globalData.market_id,
             data: {},
             method: 'GET', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT  
             // header: {}, // 设置请求的 header  

@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <view class='imagesize'>
-  <image src="https://fanfan.skyable.cn/web/static/image/fanfan.jpg">
+  <image src="https://fanfan.skyable.cn/app/static/mini/logo.jpg">
   </image>
 </view>
   <view class="userinfo">
