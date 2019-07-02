@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
  data: {
-    market_id:1,
+    logo:'../images/logo.jpg',
     type:null,
     datakey:null,
     fromopenid:null,
@@ -172,5 +172,18 @@ Page({
     }else{
       console.log('wait for perission . . . ')
     }
-  }
+  },
+  onShareAppMessage: function () {
+      return {
+        title: '测试抖音分享',
+        imageUrl: '../images/logo.jpg',
+        query: 'k1=v1&k2=v2',
+        success() {
+          console.log('分享成功')
+        },
+        fail(e) {
+          console.log('分享失败', e)
+        }
+      }
+    }
 })

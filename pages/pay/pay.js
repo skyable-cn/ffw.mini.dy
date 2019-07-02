@@ -122,9 +122,35 @@ Component({
               },
               success (res) {
                 console.log(res);
+                tt.showToast({
+                title: '支付成功',
+                icon: 'success',
+                duration: 3000,
+                success: function(){
+                   setTimeout(function(){
+                      tt.navigateTo({
+                        url: '../webview/webview?path=' + encodeURIComponent('https://fanfan.skyable.cn/appdy/my?openid=' + app.globalData.user.openid)
+                      })
+                    },2000);
+                }
+              });
+              console.log("支付成功")
               },
               fail (res) {
                 console.log(res);
+                tt.showToast({
+                title: '支付失败',
+                icon: 'success',
+                duration: 3000,
+                success: function(){
+                    setTimeout(function(){
+                      tt.navigateTo({
+                        url: '../webview/webview?path=' + encodeURIComponent('https://fanfan.skyable.cn/appdy/my?openid=' + app.globalData.user.openid)
+                      })
+                    },2000); 
+                }
+              });
+              console.log("支付失败")
               }
             })
           }else{
